@@ -50,8 +50,8 @@ class Server:
             Dict with key-value pairs
         """
         dataset = self.indexed_dataset()
-        assert isinstance(page, int) and isinstance(page_size, int) and\
-            page > 0 and page_size > 0
+        assert isinstance(index, int) and isinstance(page_size, int) and\
+            index > 0 and page_size > 0
         data = []
         next_page = index
         for _ in range(page_size):
