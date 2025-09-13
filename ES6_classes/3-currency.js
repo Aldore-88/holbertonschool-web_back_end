@@ -3,7 +3,8 @@ export default class Currency{
         this.symbol = symbol;
         this.currencyName = currencyName;
     }
-    
+
+// getter currency symbol
     get symbol(){
         return this._symbol;
     }
@@ -12,6 +13,7 @@ export default class Currency{
         this._symbol = newSymbol;
     }
 
+// getter currencyName
     get currencyName(){
         return this._currencyName;
     }
