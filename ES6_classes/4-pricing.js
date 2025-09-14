@@ -6,5 +6,4 @@ export default class Pricing {
     this._amount = amount;
     this._currency = currency;
   }
-  
 }
