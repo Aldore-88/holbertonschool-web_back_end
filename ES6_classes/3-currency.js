@@ -1,10 +1,10 @@
 export default class Currency{
     constructor(symbol, currencyName){
-        this.symbol = symbol;
-        this.currencyName = currencyName;
+        this._symbol = symbol;
+        this._currencyName = currencyName;
     }
 
-// getter currency symbol
+// getter setter currency symbol
     get symbol(){
         return this._symbol;
     }
@@ -13,7 +13,7 @@ export default class Currency{
         this._symbol = newSymbol;
     }
 
-// getter currencyName
+// getter setter currencyName
     get currencyName(){
         return this._currencyName;
     }
