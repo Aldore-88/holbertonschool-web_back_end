@@ -5,21 +5,21 @@ export default class Currency{
     }
 
 // getter setter currency symbol
-    get symbol(){
-        return this._symbol;
+    get code(){
+        return this._code;
     }
 
-    set symbol(newSymbol){
-        this._symbol = newSymbol;
+    set code(newSymbol){
+        this._code = newSymbol;
     }
 
 // getter setter currencyName
-    get currencyName(){
-        return this._currencyName;
+    get name(){
+        return this._name;
     }
 
-    set currencyName(name){
-        this._currencyName = name;
+    set name(newName){
+        this._name = newName;
     }
 
     displayFullCurrency(){
