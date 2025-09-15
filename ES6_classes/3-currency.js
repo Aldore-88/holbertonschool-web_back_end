@@ -1,7 +1,7 @@
 export default class Currency{
-    constructor(symbol, currencyName){
-        this._symbol = symbol;
-        this._currencyName = currencyName;
+    constructor(code, name){
+        this._symbol = code;
+        this._currencyName = name;
     }
 
 // getter setter currency symbol
